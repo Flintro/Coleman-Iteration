@@ -11,7 +11,7 @@ if c<=1e-02
 else
 policy_func = interp1(k_grid', policy_guess', k);%(j,:), k);
 
-diff = ( 1/c - beta*(1 ./ policy_func)*M(j,:)'*(a0*alpha*k^(alpha-1) + (1 - delta) ) ); %still need to multiply by markov kernel
+diff = ( 1/c - beta*(1 ./ policy_func)*M(j,:)'*(a0*alpha*k^(alpha-1) + (1 - delta) ) );
 end
 
 

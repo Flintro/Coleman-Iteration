@@ -1,4 +1,5 @@
-global alpha beta sigma k0 delta policy_guess M amat a0 j;
+clear
+global beta alpha sigma k_grid k0 delta policy_guess M amat a0 j;
 alpha = 0.3;
 beta = 0.96;
 sigma = 0.9;
